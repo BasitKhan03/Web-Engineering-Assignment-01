@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Metrophobic&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2{
+    font-family: 'Metrophobic', sans-serif;
+    font-size: 16px;
+}
+
+h3{
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: lighter;
+    margin-top: 2px;
+}
+
+#header{
+    height: 84px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 30px 10%; 
+    background-color: #edf0f1;
+    transition: all 0.6s;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.4);
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.logoHeading{
+    font-family: 'Metrophobic', sans-serif;
+    display: inline;
+    font-size: 26px;
+    font-weight: 600;
+    margin-left: -12px;
+}
+
+li, a, button{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    color: black;
+    text-decoration: none;
+}
+
+.links{
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 60px;
+}
+
+.links li{
+    display: inline-block;
+    padding: 0 19px;
+}
+
+.links li a{
+    transition: all 0.5s ease 0s;
+}
+
+.links li a:hover, .links li a.active{
+    color: #0a5163;
+    text-decoration: underline;
+}
+
+button{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+    background-color: rgb(12, 14, 127);
+    padding: 8px 25px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin-right: -60px;   
+}
+
+button:hover{
+    background-color: rgba(32, 35, 188, 0.9);
+}
+
+.row{
+    margin: 70px 150px;
+}
+
+.main-text{
+    font-family: "Raleway", sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    font-style: italic;
+    margin-bottom: -30px;
+}
+
+#gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 130px;
+}
+
+.sneakersImg{
+    width: 280px;
+}
+
+.card{
+    margin-top: 10px;
+    cursor: pointer;
+    transition: all 0.8s ease;
+}
+
+.card:hover{
+    transform: scale(1.13);
+}
+
+.card-info{
+    padding: 8px;
+    margin-top: -4px;
+    margin-bottom: 15px;
+    border: 1px solid #cacaca;
+    background-color: white;
+}
+
+#footer{
+    background-color: #f1f2f3;
+    height: 75px;
+    width: 100%;
+    box-shadow: 0px 2px 10px rgba(58, 58, 58, 0.4);
+    margin-top: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.social li{
+    margin: 0 10px;
+}
+
+.social li img{
+    position: relative;
+    top: 2px;
+}
+
+.footer-links{
+    margin-left: 40px;
+}
+
+.footer-details{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+span{
+    text-transform: uppercase;
+    opacity: .9;
+    font-weight: 300;
+}
